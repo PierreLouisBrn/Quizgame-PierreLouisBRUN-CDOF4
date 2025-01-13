@@ -50,7 +50,7 @@ def poser_questions():
                 print("Entrée invalide. Veuillez entrer un nombre.")
 
         if reponse == q["correct"]:
-            print("Bonne réponse ! \n")
+            print("Bonne réponse ! \n"))
             score += 1
         else:
             print(f"Mauvaise réponse. La bonne réponse était {q['correct']} : {q['options'][q['correct'] - 1]}\n")
