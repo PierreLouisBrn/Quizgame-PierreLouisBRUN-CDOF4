@@ -58,6 +58,7 @@ This project is licensed under the MIT License. Feel free to use, modify, and di
 
 ---
 
-Happy quizzing!
+Happy quizzing to all the players !
+Please leave a star if you enjoyed ! It helps us a lot !
 
 
