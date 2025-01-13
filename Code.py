@@ -16,6 +16,18 @@ def poser_questions():
             "question": "Quelle est la capitale de l'Australie ?",
             "options": ["1) Sydney", "2) Melbourne", "3) Canberra", "4) Perth"],
             "correct": 3
+        },
+        {
+            "question": "Which company created Python?",
+            "answer": "Google",
+            "options": ["Microsoft", "Google", "Apple", "Facebook"],
+            "correct": "B"
+        },
+        {
+            "question": "What does HTML stand for?",
+            "answer": "Hypertext Markup Language", 
+            "options": ["High Tech Modern Language", "Hypertext Markup Language", "Home Tool Markup Language", "Hyperlink and Text Markup Language"],
+            "correct": "B"
         }
     ]
 
