@@ -33,9 +33,14 @@ def poser_questions():
 
     random.shuffle(questions)  # Mélanger les questions pour plus de variété
     score = 0
+    lives=3
+    compteur_question=0
 
+    print(f"Vous commencez avec {lives} vies! \n")
     for i, q in enumerate(questions):
-        print(f"Question {i + 1}: {q['question']}")
+        compteur_question+=1
+        print(f"Vies restantes: {lives}")
+        print(f"Question {i + 1}: {q['question']}") 
         for option in q["options"]:
             print(option)
 
@@ -53,9 +58,14 @@ def poser_questions():
             print("Bonne réponse ! \n")
             score += 1
         else:
+            lives -= 1
             print(f"Mauvaise réponse. La bonne réponse était {q['correct']} : {q['options'][q['correct'] - 1]}\n")
+            
+        if lives == 0:  # Vérifier si plus de vies
+            print("Game Over! Vous n'avez plus de vies!")
+            break
 
-    print(f"Vous avez terminé ! Votre score est de {score}/{len(questions)}.")
+    print(f"Vous avez terminé ! Votre score est de {score}/{compteur_question}.")
 
 if __name__ == "__main__":
     poser_questions()
