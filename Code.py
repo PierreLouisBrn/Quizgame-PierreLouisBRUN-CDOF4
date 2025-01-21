@@ -21,13 +21,13 @@ def poser_questions():
             "question": "Which company created Python?",
             "answer": "Google",
             "options": ["Microsoft", "Google", "Apple", "Facebook"],
-            "correct": "B"
+            "correct": 2
         },
         {
             "question": "What does HTML stand for?",
             "answer": "Hypertext Markup Language", 
             "options": ["High Tech Modern Language", "Hypertext Markup Language", "Home Tool Markup Language", "Hyperlink and Text Markup Language"],
-            "correct": "B"
+            "correct": 2
         }
     ]
 
